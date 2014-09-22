@@ -1,0 +1,5 @@
+import requests
+import lxml.html
+
+#get the webpage
+response = requests.get("http://www.zagat.com/c/new-york-city-ny/sandwich-shop-restaurants")
